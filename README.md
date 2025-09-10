@@ -38,7 +38,8 @@ c.k. shukla
 lalit chowdury
 s.n. dasgupta
 ^d
-```clear
+```
+
 ### Display the content of the files
 
 cat < file1
@@ -111,6 +112,7 @@ Hello world
 hello world
  
 grep Hello newfile 
+
 ## OUTPUT
 ![Alt text](img/9.png)
 
