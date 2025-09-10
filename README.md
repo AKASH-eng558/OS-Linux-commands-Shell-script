@@ -831,8 +831,9 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
+./forin1.sh
 ## OUTPUT
+![Alt text](img/68.png)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -852,9 +853,9 @@ Warangal
 Adilabad
 Bhadrachalam
 Khammam
-
+cat cities
 ## OUTPUT
-
+![Alt text](img/69.png)
 
 cat forctype.sh 
 ```bash
@@ -868,7 +869,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![Alt text](img/70.png)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -881,7 +882,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![Alt text](img/71.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -899,7 +900,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![Alt text](img/72.png)
  
 cat forbreak.sh 
 ```bash
@@ -915,12 +916,11 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
-
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ ## OUTPUT!
+ [Alt text](img/73.png)
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -941,7 +941,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![Alt text](img/74.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -955,7 +955,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![Alt text](img/75.png)
 
  cat exread1.sh
 ```bash
@@ -965,12 +965,12 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+./exread1.sh 
 ## OUTPUT
+![Alt text](img/76.png)
 
 
 
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -986,13 +986,13 @@ echo "The result is $value"
 else
 echo "Usage: badtest1 a b"
 fi
-```
+./funcex.sh 
 ## OUTPUT
- ./funcex.sh 
-
+ 
+![Alt text](img/77.png)
  
  ./funcex.sh 1 2
-
+![Alt text](img/78.png)
  
 cat argshift.sh
 ```bash
@@ -1003,10 +1003,10 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
+./argshift.sh 1 2 3
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
+$ 
+ ![Alt text](img/79.png)
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1021,9 +1021,9 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT
+ ![Alt text](img/80.png)
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1033,10 +1033,10 @@ while (( "$#" )); do
   shift 
 done
 set +x
-```
+ ./argshift.sh 1 2 3```
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
+
+ ![Alt text](img/81.png)
  
 cat > nc.awk
 ```bash
@@ -1067,7 +1067,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![Alt text](img/82.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1093,8 +1093,9 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+$./palindrome.sh
 ## OUTPUT 
-
+![Alt text](img/83.png)
 
 # RESULT:
 The Commands are executed successfully.
